@@ -1,0 +1,2 @@
+-- Sẽ tạo các file .html cùng cấp với file index.html
+-- Khởi tạo file .css sẽ cùng tên với file .css và javascripts cũng khởi tạo cùng tên để dễ tìm

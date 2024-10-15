@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A learning center website template designed for education purposes." />
+    <title>Learning Center</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="navbar-left">
+          <p>
+            <i class="fas fa-question-circle"></i> Have a question?
+            <i class="fas fa-phone"></i> 10 20 123 456
+            <i class="fas fa-envelope"></i> info@mydomain.com
+          </p>
+        </div>
+        <div class="navbar-right">
+          <a href="#" aria-label="Log In"><i class="fas fa-lock"></i> Log In</a>
+          <a href="#" aria-label="Register"><i class="fas fa-user"></i> Register</a>
+        </div>
+      </div>
+
+      <nav>
+        <div class="logo">
+          <h1>Nurture<span class="htl">.</span></h1>
+        </div>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li class="dropdown">
+            <a style="color: rgba(255, 255, 255, 0.5)" href="#"
+              >Dropdown <span>▼</span></a
+            >
+            <ul class="dropdown-content">
+              <li><a href="./dropdown.html">Elements</a></li>
+              <li class="submenu">
+                <a href="#">Menu Two <span>▶</span></a>
+                <ul class="submenu-content">
+                  <li><a href="#">Sub Menu One</a></li>
+                  <li><a href="#">Sub Menu Two</a></li>
+                  <li><a href="#">Sub Menu Three</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Menu Three</a></li>
+            </ul>
+          </li>
+          <li>
+            <a style="color: rgba(255, 255, 255, 0.5)" href="./ourstaff.html">Our Staff</a>
+          </li>
+          <li><a style="color: rgba(255, 255, 255, 0.5)" href="./news.html">News</a></li>
+          <li>
+            <a style="color: rgba(255, 255, 255, 0.5)" href="#">Gallery</a>
+          </li>
+          <li><a style="color: rgba(255, 255, 255, 0.5)" href="./about.html">About</a></li>
+          <li>
+            <a style="color: rgba(255, 255, 255, 0.5)" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+        <a href="#" class="enroll-btn">ENROLL NOW</a>
+      </nav>
+      <div class="hero-section">
+        <div class="content">
+          <h1>
+            Learning Center for <br />
+            Your Kids
+          </h1>
+          <p>
+            Another free template by Colorlib. Far far away,<br />
+            behind the word mountains, far from the countries <br />
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+          <a href="#" class="explore-btn">Explore Now</a>
+          <button class="play-btn" id="play-btn" aria-label="Play Video">
+            <i class="fas fa-play"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal để hiển thị video -->
+      <div id="video-modal" class="modal">
+        <div class="modal-content">
+          <span class="close-btn">&times;</span>
+          <iframe
+            id="vimeo-video"
+            src="https://player.vimeo.com/video/342333493"
+            frameborder="0"
+            allow="autoplay; fullscreen"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </header>
+
+    <section class="main-content">
+      <!-- Features Section -->
+      <div class="features-section">
+        <div class="feature-box" style="background-color: #5cb100">
+          <div class="icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <h3>Learn</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div class="feature-box" style="background-color: #ec661f">
+          <div class="icon">
+            <i class="fas fa-gamepad"></i>
+          </div>
+          <h3>Play</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div class="feature-box" style="background-color: #4fb0dc">
+          <div class="icon">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <h3>Meal</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+      </div>
+
+      <!-- Offer Section -->
+      <div class="offer-section">
+        <h2>What We Offer</h2>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and <br />
+          Consonantia, there live the blind texts.
+        </p>
+      </div>
+
+      <!-- Classes Section -->
+      <div class="classes-section">
+        <div class="class-box">
+          <div class="icon">🎵</div>
+          <h3>Music Class</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div class="class-box">
+          <div class="icon">🔢</div>
+          <h3>Math Class</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div class="class-box">
+          <div class="icon">📘</div>
+          <h3>English Class</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div class="class-box">
+          <div class="icon">📖</div>
+          <h3>Reading for Kids</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div class="class-box">
+          <div class="icon">🏛️</div>
+          <h3>History Class</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div class="class-box">
+          <div class="icon">🏃</div>
+          <h3>Active Class</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="custom-hero">
+      <div class="custom-hero-content">
+        <h1>Education for Tomorrow's Leaders</h1>
+        <p>
+          Far far away, behind the word mountains, far from the countries <br />
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <a href="#" class="custom-enroll-btn">ENROLL NOW</a>
+      </div>
+    </div>
+
+    <section class="about-section">
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Separated they
+          live in Bookmarksgrove right at the coast of the Semantics, a large
+          language ocean.
+        </p>
+        <ul>
+          <li>Separated they live</li>
+          <li>Bookmarksgrove right at the coast</li>
+          <li>Large language ocean</li>
+        </ul>
+
+        <div class="stats-section">
+          <div class="stat">
+            <h3><span id="students-count">0</span>+</h3>
+            <p>Students</p>
+          </div>
+          <div class="stat">
+            <h3><span id="teachers-count">0</span></h3>
+            <p>Teachers</p>
+          </div>
+          <div class="stat">
+            <h3><span id="awards-count">0</span></h3>
+            <p>Awards</p>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <a href="#" class="admission-btn">Admission</a>
+          <a href="#" class="learn-more-btn">Learn More</a>
+        </div>
+      </div>
+
+      <div class="image-background-container">
+        <div class="background-overlay"></div>
+        <div class="video-container">
+          <img
+            src="./assets/imgs/about_1.jpg"
+            alt="Classroom Image"
+            class="video-thumbnail"
+            loading="lazy"
+          />
+          <button class="play-btnn" id="play-btn-image" aria-label="Play Video">
+            <i class="fas fa-play"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="news-section">
+      <div class="section-header">
+        <h2>School News</h2>
+        <div class="orange-underline"></div>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+      </div>
+
+      <div class="news-cards">
+        <!-- Card 1 -->
+        <div class="news-card">
+          <div class="news-image-container">
+            <img
+              src="./assets/imgs/hero_bg.jpg"
+              alt="Education for Tomorrow's Leaders"
+              class="news-image"
+              loading="lazy"
+            />
+          </div>
+          <div class="news-content">
+            <h3>Education for Tomorrow's Leaders</h3>
+            <p class="news-meta">
+              <i class="fas fa-calendar-alt"></i> June 22, 2020
+              <span>Colorlib</span>
+            </p>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="news-card">
+          <div class="news-image-container">
+            <img
+              src="./assets/imgs/about_2.jpg"
+              alt="Enroll Your Kids This Summer"
+              class="news-image"
+              loading="lazy"
+            />
+          </div>
+          <div class="news-content">
+            <h3>Enroll Your Kids This Summer to get 30% off</h3>
+            <p class="news-meta">
+              <i class="fas fa-calendar-alt"></i> June 22, 2020
+              <span>Colorlib</span>
+            </p>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing-section">
+      <div class="section-header">
+        <h2>Pricing</h2>
+        <div class="orange-underline"></div>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+      </div>
+
+      <div class="pricing-cards">
+        <!-- Card 1 -->
+        <div class="pricing-card">
+          <img
+            src="./assets/imgs/asset-1.png"
+            alt="Infant Plan"
+            class="pricing-image"
+            loading="lazy"
+          />
+          <h3>Infant</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+          <h4>$50.99<span>/month</span></h4>
+          <a href="#" class="btn-get-started">Get Started</a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="pricing-card">
+          <img
+            src="./assets/imgs/asset-2.png"
+            alt="Toddler Plan"
+            class="pricing-image"
+            loading="lazy"
+          />
+          <h3>Toddler</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+          <h4>$99.99<span>/month</span></h4>
+          <a href="#" class="btn-get-started">Get Started</a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="pricing-card">
+          <img
+            src="./assets/imgs/asset-3.png"
+            alt="Lad Plan"
+            class="pricing-image"
+            loading="lazy"
+          />
+          <h3>Lad</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+          <h4>$199.99<span>/month</span></h4>
+          <a href="#" class="btn-get-started">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial-section">
+      <div class="testimonial-background">
+        <div class="testimonials">
+          <h2 class="section-title">Testimonials</h2>
+          <div class="testimonial-item active">
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean.
+            </p>
+            <div class="author">
+              <img src="./assets/imgs/person_1.jpg" alt="Author 1" loading="lazy" />
+              <p><strong>John Doe</strong><br />Designer at Google</p>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <p>
+              When she reached the first hills of the Italic Mountains, she had
+              a last view back on the skyline of her hometown Bookmarksgrove,
+              the headline of Alphabet Village and the subline of her own road,
+              the Line Lane.
+            </p>
+            <div class="author">
+              <img src="./assets/imgs/person_2.jpg" alt="Author 2" loading="lazy" />
+              <p><strong>James Woodland</strong><br />Designer at Facebook</p>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <p>
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country, in
+              which roasted parts of sentences fly into your mouth.
+            </p>
+            <div class="author">
+              <img src="./assets/imgs/person_3 (1).jpg" alt="Author 3" loading="lazy" />
+              <p><strong>Rob Smith</strong><br />Product Designer at Twitter</p>
+            </div>
+          </div>
+          <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+        <div class="why-choose-us">
+          <h2 class="section-title">Why Choose Us</h2>
+          <div class="accordion-item active">
+            <div class="accordion-header">GOOD TEACHERS AND STAFFS</div>
+            <div class="accordion-body">
+              <img src="./assets/imgs/about_1.jpg" alt="Good Teachers" loading="lazy" />
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language ocean.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">WE VALUE GOOD CHARACTERS</div>
+            <div class="accordion-body">
+              <img src="./assets/imgs/about_2.jpg" alt="Good Characters" loading="lazy" />
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language ocean.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">YOUR CHILDREN ARE SAFE</div>
+            <div class="accordion-body">
+              <img src="./assets/imgs/about_1.jpg" alt="Children Safe" loading="lazy" />
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language ocean.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <div class="aboutNurture">
+          <div>
+            <p>About Nurture</p>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+          <div>
+            <p>Connect</p>
+          </div>
+          <div class="mediaHolder">
+            <span><i class="fa-brands fa-instagram"></i></span>
+            <span><i class="fa-brands fa-twitter"></i></span>
+            <span><i class="fa-brands fa-facebook-f"></i></span>
+            <span><i class="fa-brands fa-linkedin-in"></i></span>
+            <span><i class="fa-brands fa-pinterest"></i></span>
+            <span><i class="fa-brands fa-dribbble"></i></span>
+          </div>
+        </div>
+        <div class="projectsHolder">
+          <p>Projects</p>
+          <div>
+            <p>Web Design</p>
+            <p>HTML5</p>
+            <p>CSS3</p>
+            <p>jQuery</p>
+            <p>Bootstrap</p>
+          </div>
+        </div>
+        <div class="galleryHolder">
+          <p>Gallery</p>
+          <div class="grid-container">
+            <div class="grid-item1">
+              <img src="./assets/imgs/gal_1.jpg" style="width: 72px" loading="lazy" />
+              <img src="./assets/imgs/gal_2.jpg" style="width: 72px" loading="lazy" />
+              <img src="./assets/imgs/gal_3.jpg" style="width: 72px" loading="lazy" />
+            </div>
+            <div class="grid-item2">
+              <img src="./assets/imgs/gal_4.jpg" style="width: 72px" loading="lazy" />
+              <img src="./assets/imgs/gal_5.jpg" style="width: 72px" loading="lazy" />
+              <img src="./assets/imgs/gal_6.jpg" style="width: 72px" loading="lazy" />
+            </div>
+          </div>
+        </div>
+        <div class="contactHolder">
+          <p>Contact</p>
+          <p>43 Raymouth Rd. Baltemoer, London 3910</p>
+          <div class="socialHolder">
+            <p>+1(123)-456-7890</p>
+            <p>+1(123)-456-7890</p>
+            <p>info@mydomain.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="introHolder">
+        <span
+          >Copyright ©2024 All rights reserved | This template is made with
+        </span>
+        <span>
+          <i class="fa-solid fa-heart" style="color: red"></i>
+        </span>
+        <span>by</span>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

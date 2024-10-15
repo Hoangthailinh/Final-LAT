@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HOME</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/640885ff01.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/dropdown.css" />
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="navbar-left">
+        <p>
+          <i class="fas fa-question-circle"></i> Have a question?
+          <i class="fas fa-phone"></i> 10 20 123 456
+          <i class="fas fa-envelope"></i> info@mydomain.com
+        </p>
+      </div>
+      <div class="navbar-right">
+        <a href="#" aria-label="Log In"><i class="fas fa-lock"></i> Log In</a>
+        <a href="#" aria-label="Register"><i class="fas fa-user"></i> Register</a>
+      </div>
+    </div>
+
+    <nav>
+      <div class="logo">
+        <h1>Nurture<span class="htl">.</span></h1>
+      </div>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li class="dropdown">
+          <a style="color: rgba(255, 255, 255, 0.5)" href="#"
+            >Dropdown <span>▼</span></a
+          >
+          <ul class="dropdown-content">
+            <li><a href="./dropdown.html">Elements</a></li>
+            <li class="submenu">
+              <a href="#">Menu Two <span>▶</span></a>
+              <ul class="submenu-content">
+                <li><a href="#">Sub Menu One</a></li>
+                <li><a href="#">Sub Menu Two</a></li>
+                <li><a href="#">Sub Menu Three</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Menu Three</a></li>
+          </ul>
+        </li>
+        <li>
+          <a style="color: rgba(255, 255, 255, 0.5)" href="./ourstaff.html">Our Staff</a>
+        </li>
+        <li><a style="color: rgba(255, 255, 255, 0.5)" href="./news.html">News</a></li>
+        <li>
+          <a style="color: rgba(255, 255, 255, 0.5)" href="#">Gallery</a>
+        </li>
+        <li><a style="color: rgba(255, 255, 255, 0.5)" href="./about.html">About</a></li>
+        <li>
+          <a style="color: rgba(255, 255, 255, 0.5)" href="./contact.html">Contact</a>
+        </li>
+      </ul>
+      <a href="#" class="enroll-btn">ENROLL NOW</a>
+    </nav>
+    <div class="hero-section">
+      <div class="content">
+        <h1>
+          Learning Center for <br />
+          Your Kids
+        </h1>
+        <p>
+          Another free template by Colorlib. Far far away,<br />
+          behind the word mountains, far from the countries <br />
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <a href="#" class="explore-btn">Explore Now</a>
+        <button class="play-btn" id="play-btn" aria-label="Play Video">
+          <i class="fas fa-play"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Modal để hiển thị video -->
+    <div id="video-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <iframe
+          id="vimeo-video"
+          src="https://player.vimeo.com/video/342333493"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="untree_co-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+
+            <div class="custom-block aos-init aos-animate" data-aos="fade-up">
+              <h2 class="section-title">Accordion</h2>
+              <div class="custom-accordion" id="accordion_1">
+                <div class="accordion-item active">
+                  <h2 class="mb-0">
+                    <span><i class="fa-thin fa-plus" style="width: 2px;"></i></span><button
+                      class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                      aria-expanded="false" aria-controls="collapseTwo">How to download and register?</button>
+                  </h2>
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion_1">
+                    <div class="accordion-body">
+                      Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                      live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+                      large language ocean.
+                    </div>
+                  </div>
+                </div> 
+
+                 <div class="accordion-item">
+                  <h2 class="mb-0">
+                    <span><i class="fa-thin fa-plus" style="width: 2px;"></i></span><button
+                      class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                      aria-expanded="false" aria-controls="collapseTwo">How to create your paypal account?</button>
+                  </h2>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion_1">
+                    <div class="accordion-body">
+                      A small river named Duden flows by their place and supplies it with the necessary regelialia. It
+                      is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                    </div>
+                  </div>
+                </div> 
+                <div class="accordion-item">
+                  <h2 class="mb-0">
+                    <span><i class="fa-thin fa-plus"></i></span><button class="btn btn-link collapsed" type="button"
+                      data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                      aria-controls="collapseThree">How to link your paypal and bank account?</button>
+                  </h2>
+
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_1">
+                    <div class="accordion-body">
+                      When she reached the first hills of the Italic Mountains, she had a last view back on the skyline
+                      of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road,
+                      the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.
+                    </div>
+                  </div>
+
+                </div> 
+
+              </div>
+            </div> 
+            <div class="custom-block aos-init aos-animate" data-aos="fade-up">
+              <h2 class="section-title">Gallery</h2>
+              <div class="row gutter-v2 gallery">
+                <div class="col-4">
+                  <a href="images/ga_1.jpg" class="gal-item" data-fancybox="gal"><img src="./assets/imgs/gal_1.jpg"
+                      alt="Image" class="img-fluid"></a>
+                </div>
+                <div class="col-4">
+                  <a href="images/gal_2.jpg" class="gal-item" data-fancybox="gal"><img src="./assets/imgs/gal_2.jpg"
+                      alt="Image" class="img-fluid"></a>
+                </div>
+                <div class="col-4">
+                  <a href="images/gal_3.jpg" class="gal-item" data-fancybox="gal"><img src="./assets/imgs/gal_3.jpg"
+                      alt="Image" class="img-fluid"></a>
+                </div>
+                <div class="col-4">
+                  <a href="images/gal_4.jpg" class="gal-item" data-fancybox="gal"><img src="./assets/imgs/gal_4.jpg"
+                      alt="Image" class="img-fluid"></a>
+                </div>
+                <div class="col-4">
+                  <a href="images/gal_5.jpg" class="gal-item" data-fancybox="gal"><img src="./assets/imgs/gal_5.jpg"
+                      alt="Image" class="img-fluid"></a>
+                </div>
+                <div class="col-4">
+                  <a href="images/gal_6.jpg" class="gal-item" data-fancybox="gal"><img src="./assets/imgs/gal_6.jpg"
+                      alt="Image" class="img-fluid"></a>
+                </div>
+              </div>
+            </div> <!-- END .custom-block -->
+
+            <div class="custom-block aos-init aos-animate" data-aos="fade-up">
+              <h2 class="section-title">Video</h2>
+
+              <a href="https://vimeo.com/342333493" data-fancybox="" class="video-wrap">
+                <span class="play-wrap">
+                  <span class="icon-play"><i class="fa-solid fa-play"></i></span>
+                </span>
+                <img src="./assets/imgs/hero_bg.jpg" alt="Image" class="img-fluid rounded">
+              </a>
+            </div> <!-- END .custom-block -->
+
+            <div class="custom-block aos-init aos-animate" data-aos="fade-up">
+              <h2 class="section-title mb-3">Check Unordered List</h2>
+
+              <ul class="list-unstyled ul-check primary">
+                <class class="faCheck">
+                  <i class="fa-solid fa-check"></i><span>Far far away, behind the word</span><br>
+                  <i class="fa-solid fa-check"></i><span>Far from the countries Vokalia</span><br>
+                  <i class="fa-solid fa-check"></i><span>Separated they live in Bookmarksgrove</span>
+                </class>
+              </ul>
+
+            </div> <!-- END .custom-block -->
+
+          </div> <!-- /.col-lg-6 -->
+          <div class="col-lg-6">
+            <div class="custom-block aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <h2 class="section-title">Form</h2>
+              <form class="contact-form">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="" for="fname">First name</label>
+                      <input type="text" class="form-control" id="fname">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="" for="lname">Last name</label>
+                      <input type="text" class="form-control" id="lname">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="" for="email">Email address</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+                </div>
+                <div class="form-group">
+                  <label class="" for="password">Password</label>
+                  <input type="password" class="form-control" id="password">
+                </div>
+                <div class="form-group">
+                  <label class="" for="message">Message</label>
+                  <textarea name="" class="form-control" id="message" cols="30" rows="5"></textarea>
+                </div>
+                <div class="form-group" id="selectHolder">
+                  <label class="" for="select">Select</label>
+
+                  <select name="" id="select" class="custom-select">
+                    <option value="">Colorlib</option>
+                    <option value="">Offers high quality free template</option>
+                  </select>
+
+                </div>
+                <div class="form-group">
+                  <label class="control control--checkbox">
+                    <input type="checkbox" checked="checked">
+                    <span class="caption">Custom checkbox</span>
+                    <div class="control__indicator"></div>
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+
+            <div class="custom-block aos-init aos-animate" data-aos="fade-up">
+              <h2 class="section-title">Social Icons</h2>
+              <ul class="list-unstyled social-icons light" id="socialList">
+                <span><i class="fa-brands fa-facebook-f"></i></span>
+                <span><i class="fa-brands fa-twitter"></i></span>
+                <span><i class="fa-brands fa-linkedin-in"></i></span>
+                <span><i class="fa-brands fa-google"></i></span>
+                <span><i class="fa-solid fa-play"></i></span>
+              </ul>
+            </div> <!-- END .custom-block -->
+
+            <div class="custom-block aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <!-- <h2 class="section-title text-center">Slider</h2> -->
+              <div class="owl-single owl-carousel no-nav owl-loaded">
+
+
+
+
+
+
+                <div class=" -outer owl-height" style="height: 196.781px;">
+                  <div class="owl-stage"
+                    style="transform: translate3d(-2160px, 0px, 0px); transition: 0.8s; width: 3780px;">
+                    <div class="owl-item cloned" style="width: 540px;">
+                      <div class="testimonial mx-auto">
+                        <figure class="img-wrap">
+                          <img src="images/person_3.jpg" alt="Image" class="img-fluid">
+                        </figure>
+                        <h3 class="name text-black">Lukas Devlin</h3>
+                        <blockquote>
+                          <p>“There live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                            the Semantics, a large language ocean.”</p>
+                        </blockquote>
+                      </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 540px;">
+                      <div class="testimonial mx-auto">
+                        <figure class="img-wrap">
+                          <img src="images/person_4.jpg" alt="Image" class="img-fluid">
+                        </figure>
+                        <h3 class="name text-black">Kayla Bryant</h3>
+                        <blockquote>
+                          <p>“There live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                            the Semantics, a large language ocean.”</p>
+                        </blockquote>
+                      </div>
+                    </div>
+                    <div class="owl-item" style="width: 540px;">
+                      <div class="testimonial mx-auto">
+                        <figure class="img-wrap">
+                          <img src="images/person_2.jpg" alt="Image" class="img-fluid">
+                        </figure>
+                        <h3 class="name text-black">Adam Aderson</h3>
+                        <blockquote>
+                          <p>“There live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                            the Semantics, a large language ocean.”</p>
+                        </blockquote>
+                      </div>
+                    </div>
+                    <div class="owl-item" style="width: 540px;">
+                      <div class="testimonial mx-auto">
+                        <figure class="img-wrap">
+                          <img src="images/person_3.jpg" alt="Image" class="img-fluid">
+                        </figure>
+                        <h3 class="name text-black">Lukas Devlin</h3>
+                        <blockquote>
+                          <p>“There live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                            the Semantics, a large language ocean.”</p>
+                        </blockquote>
+                      </div>
+                    </div>
+                    <div class="owl-item active" style="width: 540px;">
+                      <div class="testimonial mx-auto">
+                        <figure class="img-wrap">
+                          <img src="images/person_4.jpg" alt="Image" class="img-fluid">
+                        </figure>
+                        <h3 class="name text-black">Kayla Bryant</h3>
+                        <blockquote>
+                          <p>“There live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                            the Semantics, a large language ocean.”</p>
+                        </blockquote>
+                      </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 540px;">
+                      <div class="testimonial mx-auto">
+                        <figure class="img-wrap">
+                          <img src="images/person_2.jpg" alt="Image" class="img-fluid">
+                        </figure>
+                        <h3 class="name text-black">Adam Aderson</h3>
+                        <blockquote>
+                          <p>“There live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                            the Semantics, a large language ocean.”</p>
+                        </blockquote>
+                      </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 540px;">
+                      <div class="testimonial mx-auto">
+                        <figure class="img-wrap">
+                          <img src="images/person_3.jpg" alt="Image" class="img-fluid">
+                        </figure>
+                        <h3 class="name text-black">Lukas Devlin</h3>
+                        <blockquote>
+                          <p>“There live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                            the Semantics, a large language ocean.”</p>
+                        </blockquote>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-nav disabled">
+                  <div class="owl-prev"><span class="icon-keyboard_backspace"></span></div>
+                  <div class="owl-next"><span class="icon-keyboard_backspace"></span></div>
+                </div>
+                <div class="owl-dots">
+                  <div class="owl-dot"><span></span></div>
+                  <div class="owl-dot"><span></span></div>
+                  <div class="owl-dot active"><span></span></div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- /.col-lg-6 -->
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+    </div> 
+  </main>
+
+  <footer>
+    <div>
+      <div class="aboutNurture">
+        <div>
+          <p>About Nurture</p>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        </div>  
+          <div>
+            <p>Connect</p>
+          </div>
+          <div class="mediaHolder">
+            <span><i class="fa-brands fa-instagram"></i></span>
+            <span><i class="fa-brands fa-twitter"></i></span>
+            <span><i class="fa-brands fa-facebook-f"></i></span>
+            <span><i class="fa-brands fa-linkedin-in"></i></span>
+            <span><i class="fa-brands fa-pinterest"></i></span>
+            <span><i class="fa-brands fa-dribbble"></i></span>
+          </div>
+      </div>
+      <div class="projectsHolder">
+        <p>Projects</p>
+        <div>
+          <p>Web Design</p>
+          <p>HTML5</p>
+          <p>CSS3</p>
+          <p>jQuery</p>
+          <p>Bootstrap</p>
+        </div>
+      </div>
+      <div class="galleryHolder">
+        <p>Gallery</p>
+        <div class="grid-container">
+          <div class="grid-item1">
+            <img src="./assets/imgs/gal_1.jpg" style="width: 72px;">
+            <img src="./assets/imgs/gal_2.jpg" style="width: 72px;"> 
+            <img src="./assets/imgs/gal_3.jpg" style="width: 72px;">
+          </div>
+          <div class="grid-item2">
+            <img src="./assets/imgs/gal_4.jpg" style="width: 72px;">
+            <img src="./assets/imgs/gal_5.jpg" style="width: 72px;">
+            <img src="./assets/imgs/gal_6.jpg" style="width: 72px;">
+          </div>
+        </div>
+      </div>
+      <div class="contactHolder">
+        <p>Contact</p>
+        <p>43 Raymouth Rd. Baltemoer, London 3910</p>
+        <div class="socialHolder">
+            <p>+1(123)-456-7890</p>
+            <p>+1(123)-456-7890</p>
+            <p>info@mydomain.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="introHolder">
+      <span>Copyright ©2024 All rights reserved | This template is made with </span>
+      <span>
+        <i class="fa-solid fa-heart" style="color: red;"></i>
+      </span>
+      <span>by</span>
+    </div>
+  </footer>
+
+  <!-- LUÔN NHỚ ĐẶT file script nằm cuối body -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/dropdown.js"></script>
+</body>
+
+</html>
